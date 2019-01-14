@@ -30,6 +30,12 @@
         tweetArea.appendChild(anchor);
 
         twttr.widgets.load();
+
+        imgHina.style.pointerEvents = "none";
+        setTimeout(() => {
+            imgHina.style.pointerEvents = "auto";
+            
+        }, 1500);
     }
     imgHina.addEventListener('click',audioPlay);
 })();
