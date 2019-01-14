@@ -35,7 +35,7 @@
         setTimeout(() => {
             imgHina.style.pointerEvents = "auto";
             
-        }, 1500);
+        }, 1300);
     }
     imgHina.addEventListener('click',audioPlay);
 })();
